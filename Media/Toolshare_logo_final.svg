@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212.602" height="56" viewBox="0 0 212.602 56">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(8.95 12.034)">
+    <g id="Lag_1" data-name="Lag 1" transform="translate(1.05 -10.15)">
+      <text id="Tool" transform="translate(-8 42.116)" fill="#1ac6e0" stroke="#1ac6e0" stroke-miterlimit="10" stroke-width="2" font-size="39" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" letter-spacing="-0.07em">T</tspan><tspan y="0">ool</tspan></text>
+      <text id="Share" transform="translate(107.601 41.429)" fill="#1ac6e0" stroke="#1ac6e0" stroke-miterlimit="10" stroke-width="1" font-size="38" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Sha</tspan><tspan y="0" letter-spacing="-0.01em">r</tspan><tspan y="0">e</tspan></text>
+      <g id="surface4079395" transform="translate(72.025 16.018)">
+        <path id="Path_1623" data-name="Path 1623" d="M116.641,9.407a5.247,5.247,0,0,0-5.239,5.239,5,5,0,0,0,.249,1.24l-8.982,4.5a5.107,5.107,0,0,0-4-1.988,5.239,5.239,0,1,0,0,10.479,5.13,5.13,0,0,0,4-1.988l8.982,4.491a5.146,5.146,0,0,0-.249,1.24,5.247,5.247,0,1,0,5.239-5.239,5.146,5.146,0,0,0-4,1.98l-8.982-4.491a4.811,4.811,0,0,0,.257-1.24,4.741,4.741,0,0,0-.257-1.24l8.982-4.5a5.13,5.13,0,0,0,4,2,5.247,5.247,0,1,0,0-10.486Zm0,2.245a2.978,2.978,0,1,1-2.122.872A2.994,2.994,0,0,1,116.641,11.652ZM98.708,20.642a2.974,2.974,0,1,1-.039,0Zm17.932,8.982a2.986,2.986,0,1,1-2.119.875,3,3,0,0,1,2.119-.875Z" transform="translate(-93.43 -9.395)" fill="#1ac6e0"/>
+      </g>
+    </g>
+  </g>
+</svg>
