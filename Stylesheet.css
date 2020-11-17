@@ -28,3 +28,12 @@ body {
     border-bottom-right-radius: 20%;
 }
 
+/* footer */
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #15457B;
+    border-top: solid;
+    border-top: #15457B;
+}
