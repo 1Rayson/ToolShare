@@ -1,9 +1,21 @@
-/* Variabel /
+/* Variabel* /
 
-/ reset /
+/* reset */
 
-/ fonts /
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* fonts */
 
 
-/ base style /
+/* base style */
 
+/* header */
+
+.header__logo {
+    background-color: #15457B;
+    border-bottom: 1px solid #ebebeb;
+    justify-content: center;
+}
