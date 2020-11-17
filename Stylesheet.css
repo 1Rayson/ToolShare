@@ -21,3 +21,10 @@ body {
     border-bottom: 1px solid #ebebeb;
 }
 
+.header__search {
+    background-color: #15457B;
+    height: 50px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
