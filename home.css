@@ -8,6 +8,10 @@
     gap: 1rem;
 }
 
+.post::-webkit-scrollbar {
+    width: 0;
+}
+
 .post__image {
     background-color: green;
     width: 150px;
