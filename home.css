@@ -1,5 +1,6 @@
 .main__content {
     overflow: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .post {
@@ -12,10 +13,26 @@
     width: 0;
 }
 
+.post__title {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
 .post__image {
     background-color: green;
     width: 150px;
     height: 150px;
+    border: solid 0;
+    border-radius: 20px;
+}
+
+.post__text {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(21, 69, 123, 1);
     border: solid 0;
     border-radius: 20px;
 }
