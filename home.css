@@ -1,0 +1,15 @@
+.post {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post h1 {
+    width: 100%;
+}
+
+.post__image {
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    order: 1;
+}
