@@ -39,10 +39,19 @@ body {
 
 /* footer */
 
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-evenly;
     background-color: #15457B;
     border-top: solid;
     border-top: #15457B;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height:4em;
+    align-items: center;
+}
+
+.navicon{
+    
 }
