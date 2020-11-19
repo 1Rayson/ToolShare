@@ -1,0 +1,25 @@
+/* Variabel /
+
+
+/* reset */
+ul{
+    list-style-type: none;
+}
+
+/* fonts */
+
+
+/* base style */
+    main{
+        background-color:#D6D7DB;
+    }
+
+    .upperbar{
+        margin-top: 1em;
+        display: flex;
+        background-color: #EBEBEB;
+        justify-content: center;
+    }
+    .options{
+        margin-bottom: em;
+    }
