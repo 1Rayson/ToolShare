@@ -1,3 +1,4 @@
+
 .main__content {
     overflow: scroll;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,13 +10,12 @@
     gap: 1rem;
 }
 
-.post::-webkit-scrollbar {
-    width: 0;
+.post__title {
+    margin-left: 1rem;
 }
 
-.post__title {
-    text-align: center;
-    font-size: 1.3rem;
+.post::-webkit-scrollbar {
+    width: 0;
 }
 
 .post__image {
@@ -35,4 +35,54 @@
     background-color: rgba(21, 69, 123, 1);
     border: solid 0;
     border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#image-1 {
+    background-image: url(Media/pexels-markus-spiske-chain-saw.jpg);
+}
+
+#image-2 {
+    background-image: url(Media/pexels-grinder.jpg);
+}
+
+#image-3 {
+    background-image: url(Media/pexels-hammer.jpg);
+}
+
+#image-4 {
+    background-image: url(Media/pexels-fan.jpg);
+}
+
+#image-5 {
+    background-image: url(Media/toolie-no-picture-found.png);
+    background-size: cover;
+}
+
+#image-6 {
+    background-image: url(Media/pexels-water-hose.jpg);
+}
+
+#image-7 {
+    background-image: url(Media/pexels-digging-fork.jpg);
+}
+
+#image-8 {
+    background-image: url(Media/unsplash-rake.jpg);
+}
+
+#image-9 {
+    background-image: url(Media/unsplash-garden-shears.jpg);
+}
+
+#image-10 {
+    background-image: url(Media/unsplash-shovel.jpg);
+}
+
+#image-11 {
+    background-image: url(Media/unsplash-kettle.jpg);
+}
+
+#image-12 {
+    background-image: url(Media/pexels-blender.jpg);
 }
