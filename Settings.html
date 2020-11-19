@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,45 @@
     <link rel="Stylesheet" href="Stylesheet.css">
     <link rel="stylesheet" href="Settings.css">
 </head>
-<body>
-    <header>
-        <section class="header__logo">
-            <img src="Media/Toolshare_logo_final.svg" alt="Toolshare Logo">
-        </section>
-    </header>
 
-    <main>
-        <section class="upperbar">
-            <img src="media/settings-24px.svg" alt="cog symbol for settings">
-            <h3>application settings</h3>
-        </section>
-        <ul>
-            <li>Notifications</li>
-            <li>Allow Geolocation</li>
-            <li>Log Out</li>
-        </ul>
-    </main>
-    
-    <footer>
-        <nav class="navbar">
-            <a href="Index.html"> <img src="media/home-24px.svg" alt="Home button"></a>
-            <a href="Profile.html"> <img src="media/account_circle-24px.svg" alt="Profile button"></a>
-            <a href="Add_post.html"> <img src="media/post_add-24px.svg" alt="Add_post button"></a>
-            <a href="Chat.html"> <img src="media/chat-24px.svg" alt="Chat button"></a>
-            <a href="Settings.html"> <img src="media/settings-24px.svg" alt="Settings button"></a>
-        </nav>
-    </footer>
+<body class="options__background">
+        <header>
+            <section class="header__logo">
+                <img src="Media/Toolshare_logo_final.svg" alt="Toolshare Logo">
+            </section>
+        </header>
+
+        <main>
+
+            <section class="upperbar">
+                <img src="media/settings-24px.svg" alt="cog symbol for settings">
+                <h3>application settings</h3>
+            </section>
+            <ul class="options__list">
+                <li>Notifications</li>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <li>Allow Geolocation</li>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <li>Log Out</li>
+            </ul>
+
+        </main>
+
+        <footer>
+            <nav class="navbar">
+                <a href="Index.html"> <img src="media/home-24px.svg" alt="Home button"></a>
+                <a href="Profile.html"> <img src="media/account_circle-24px.svg" alt="Profile button"></a>
+                <a href="Add_post.html"> <img src="media/post_add-24px.svg" alt="Add_post button"></a>
+                <a href="Chat.html"> <img src="media/chat-24px.svg" alt="Chat button"></a>
+                <a href="Settings.html"> <img src="media/settings-24px.svg" alt="Settings button"></a>
+            </nav>
+        </footer>
 </body>
+
 </html>
