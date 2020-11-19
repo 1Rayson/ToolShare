@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.background-color {
+#wrapper {
     background-color: #D6D7DB;
 }
 
@@ -22,16 +22,24 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3;
-    max-width: 70%;
-    margin: auto;
+    justify-items: center;
+    gap: 2rem;
     font-size: 1.3rem;
     margin-top: 5rem;
 }
 
-.sign-up__bottom {
+.sign-up__input-bar {
+    height: 1.4rem;
+}
+
+.sign-up__input-bar:visited {
+    background-color: #1AC6E0;
+}
+
+.sign-up__continue {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2;
+    grid-template-rows: 2fr;
     justify-items: center;
     margin-top: 4rem;
     grid-gap: 4rem;
@@ -40,9 +48,11 @@ body {
 .sign-up__button {
     background-color: #15457B;
     color: #1AC6E0;
+    border: none;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 8px 23px 8px 23px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 1);
 }
 
 .mascot {
