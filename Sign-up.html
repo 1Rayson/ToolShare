@@ -6,28 +6,28 @@
     <title>Sign up</title>
     <link rel="stylesheet" href="Sign-up.css">
 </head>
-<body>
+<body class="background-color">
     <header>
-        <section>
+        <section class="header__logo">
             <img src="Media/Toolshare_logo_final.svg" alt="Toolshare logo">
         </section>
     </header>
 
     <main>
-        <form action="#">
-            <label for="email">Email</label>
-            <input type="email" id="email">
-            <label for="username">Username</label>
-            <input type="text" id="username">
-            <label for="paswoord">Paswoord (8 characters minumum)</label>
-            <input type="password" id="paswoord">
-        </form>
-        <aside>
-            <button type="submit">Sign Up</button>
-        </aside>
-        <aside>
-            <img src="Media/" alt="">
-        </aside>
+        <section class="sign-up">
+            <form class="sign-up__form" action="#">
+                <label for="email">Email</label><br>
+                <input type="email" id="email">
+                <label for="username">Username</label><br>
+                <input type="text" id="username">
+                <label for="paswoord">Paswoord (8 characters minumum)</label><br>
+                <input type="password" id="paswoord">
+            </form>
+            <aside class="sign-up__bottom">
+                <button class="sign-up__button" type="submit">Sign Up</button>
+                <img class="mascot" src="Media/Ligeglad-toolie.svg" alt="picture of Toolshare mascot called toolie">
+            </aside>
+    </section>
     </main>
 </body>
 </html>

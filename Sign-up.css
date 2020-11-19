@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-color {
+    background-color: #D6D7DB;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5em;
+    background-color: #15457B;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 3.5rem;
+}
+
+
+.sign-up__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+    max-width: 70%;
+    margin: auto;
+    font-size: 1.3rem;
+    margin-top: 5rem;
+}
+
+.sign-up__bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    justify-items: center;
+    margin-top: 4rem;
+    grid-gap: 4rem;
+}
+
+.sign-up__button {
+    background-color: #15457B;
+    color: #1AC6E0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 23px 8px 23px;
+}
+
+.mascot {
+    width: 50%;
+}
