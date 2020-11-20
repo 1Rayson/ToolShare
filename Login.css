@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: #D6D7DB;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5em;
+    background-color: #15457B;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.user-image {
+    width: 7rem;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.login__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.2rem;
+}
+
+.login__button {
+    margin-top: 2rem;
+}
