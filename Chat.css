@@ -3,5 +3,25 @@
 /* reset */
 
 /* base style */
+    .chat__other{
+        display: flex;
+        justify-content: start;
+    }
 
+    .chat__pic{
+        height: 10%;
+        width: 30%;
+        border-radius: 70px;
+
+    }
+
+    .chat__them{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .chat__me{
+        display: flex;
+        justify-content: flex-end;
+    }
 /* fonts */
