@@ -1,7 +1,40 @@
-/* Variabel /
+/* Variabel */
 
-/ reset /
 
-/ base style /
+/* reset */
 
-/ fonts /
+/* base style */
+    h1{
+        text-align: center;
+}
+    .post__add{
+        display: flex;
+        width: 250px;
+        height: 220px;
+        border: 2px solid;
+        justify-content: center;
+
+
+    }
+
+    .post_description{
+        display:flex;
+
+    }
+    .post__input{
+        width: 80%;
+    }
+    .post__create{
+        background-color:#15457B;
+        border: none;
+        color: #19C1DC;
+        width: 20%;
+        padding: 15px 32px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 23px;
+    }
+
+/* fonts */
