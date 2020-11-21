@@ -19,7 +19,6 @@ body {
     padding: 15px 0px 15px 0px;
     width: 90%;
     margin: auto;
-
 }
 
 .profile__picture {
@@ -32,9 +31,8 @@ body {
 }
 
 .profile__rating {
+    display: flex;
     margin: 10px 0px 10px 0px;
-    background: url(Media/handyman-24px.svg);
-    background-repeat: repeat-x;
 }
 
 .profile__location {
@@ -42,12 +40,21 @@ body {
     margin: 10px 0px 10px 0px;
 }
 
+.edit-profile {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    
+}
+
 .post::-webkit-scrollbar {
     width: 0;
 }
 
 .post-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin: 22.4px 0px 15px 22.4px;
 }
 
