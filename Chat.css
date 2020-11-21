@@ -35,4 +35,23 @@
         width: 50%;
         border-radius: 23px;
     }
+
+    .chat__box{
+        background-color: #15457B;
+        display: flex;
+        bottom: 4em;
+        position: fixed;
+        height: 4em;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid black;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        
+    }
+
+    .chat__box-bar{
+        width: 80%;
+    }
 /* fonts */
