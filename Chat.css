@@ -17,11 +17,22 @@
 
     .chat__them{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
+        background-color:rgb(224, 222, 222);
+        border: none;
+        color: black;
+        width: 50%;
+        border-radius: 23px;
     }
 
     .chat__me{
         display: flex;
-        justify-content: flex-end;
+        align-self: flex-end;
+        justify-content: center;
+        background-color:#15457B;
+        border: none;
+        color: white;
+        width: 50%;
+        border-radius: 23px;
     }
 /* fonts */
