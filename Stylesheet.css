@@ -6,6 +6,9 @@ body {
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 
 /* fonts */
 
@@ -61,5 +64,6 @@ body{
 }
 
 .navicon{
-    
+    height: 50%;
+    width: 50%;
 }
