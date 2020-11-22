@@ -19,13 +19,16 @@
 
     }
 
-    .post_description{
+    .post__description{
         display:flex;
+        justify-content: center;
 
     }
 
     .post__input{
-        width: 80%;
+        display: flex;
+        justify-content:center;
+        width:;      
     }
 
     .post__button{
