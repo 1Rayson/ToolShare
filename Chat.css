@@ -1,0 +1,57 @@
+/* Variabel */
+
+/* reset */
+
+/* base style */
+    .chat__other{
+        display: flex;
+        justify-content: start;
+    }
+
+    .chat__pic{
+        height: 10%;
+        width: 30%;
+        border-radius: 70px;
+
+    }
+
+    .chat__them{
+        display: flex;
+        justify-content: center;
+        background-color:rgb(224, 222, 222);
+        border: none;
+        color: black;
+        width: 50%;
+        border-radius: 23px;
+    }
+
+    .chat__me{
+        display: flex;
+        align-self: flex-end;
+        justify-content: center;
+        background-color:#15457B;
+        border: none;
+        color: white;
+        width: 50%;
+        border-radius: 23px;
+    }
+
+    .chat__box{
+        background-color: #15457B;
+        display: flex;
+        bottom: 4em;
+        position: fixed;
+        height: 4em;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid black;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        
+    }
+
+    .chat__box-bar{
+        width: 80%;
+    }
+/* fonts */
