@@ -23,11 +23,12 @@ body {
 
 .profile__picture {
     width: 100px;
+    margin-left: 20px;
 }
 
 .profile__name {
     font-size: 1.5rem;
-    margin: 5px 0px 10px 0px;
+    margin: 5px 0px 10px 20px;
 }
 
 .profile__rating {
@@ -37,7 +38,7 @@ body {
 
 .profile__location {
     font-size: 1.2rem;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 20px;
 }
 
 .edit-profile {
