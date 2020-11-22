@@ -13,17 +13,30 @@
         height: 220px;
         border: 2px solid;
         justify-content: center;
+        justify-items: center;
+        margin: auto;
 
 
     }
 
-    .post_description{
+    .post__description{
         display:flex;
+        justify-content: center;
 
     }
+
     .post__input{
-        width: 80%;
+        display: flex;
+        justify-content:center;
+        width:;      
     }
+
+    .post__button{
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
     .post__create{
         background-color:#15457B;
         border: none;
@@ -31,10 +44,9 @@
         width: 20%;
         padding: 15px 32px;
         text-decoration: none;
-        display: flex;
-        justify-content: center;
+        text-align: center;
         font-size: 24px;
-        border-radius: 23px;
+        border-radius: 23px; 
     }
 
 /* fonts */
