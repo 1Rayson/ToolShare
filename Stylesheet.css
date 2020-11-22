@@ -7,6 +7,13 @@ body {
     margin: 0;
 }
 
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+a{
+    margin: 0;
+}
 /* fonts */
 
 
@@ -41,7 +48,7 @@ body {
 
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #15457B;
     border-top: solid;
     border-top: #15457B;
@@ -53,6 +60,8 @@ body {
 }
 
 .navicon{
+    display: flex;
+    justify-self:space-evenly;
     width: 50%;
     height: 50%;
 }
