@@ -9,7 +9,14 @@ body {
 a{
     text-decoration: none;
 }
-
+    
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+a{
+    margin: 0;
+}
 /* fonts */
 
 body{
@@ -59,7 +66,7 @@ main{
 
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #15457B;
     border-top: solid;
     border-top: #15457B;
