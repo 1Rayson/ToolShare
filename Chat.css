@@ -59,5 +59,8 @@
         height: 1.3rem;
         border: solid 0px;
         border-radius: 30px;
+        outline: none;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 /* fonts */
