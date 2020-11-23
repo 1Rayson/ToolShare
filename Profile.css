@@ -22,7 +22,9 @@ body {
 }
 
 .profile__picture {
-    width: 100px;
+    border: solid 1px #15457B;
+    border-radius: 100%;
+    width: 6rem;
     margin-left: 20px;
 }
 
@@ -46,9 +48,6 @@ body {
     align-items: center;
 }
 
-.button {
-    
-}
 
 .post::-webkit-scrollbar {
     width: 0;
@@ -87,4 +86,20 @@ body {
 
 #post__text--margin-left {
     margin-left: 22.4px;
+}
+
+#image-1 {
+    background-image: url(Media/pexels-markus-spiske-chain-saw.jpg);
+}
+
+#image-2 {
+    background-image: url(Media/pexels-grinder.jpg);
+}
+
+#image-3 {
+    background-image: url(Media/pexels-hammer.jpg);
+}
+
+#image-4 {
+    background-image: url(Media/pexels-fan.jpg);
 }
