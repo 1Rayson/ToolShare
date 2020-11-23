@@ -6,12 +6,14 @@
     .chat__other{
         display: flex;
         justify-content: start;
+        align-items: center;
     }
 
     .chat__pic{
-        height: 10%;
-        width: 30%;
-        border-radius: 70px;
+        width: 4.5rem;
+        border: solid 1px #15457B;
+        border-radius: 100%;
+        margin: 1.2rem;
 
     }
 
@@ -45,7 +47,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        border-bottom: solid black;
+        border-bottom: solid 1px #ebebeb;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         
@@ -53,5 +55,8 @@
 
     .chat__box-bar{
         width: 80%;
+        height: 1.3rem;
+        border: solid 0px;
+        border-radius: 30px;
     }
 /* fonts */
