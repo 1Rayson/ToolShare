@@ -60,6 +60,7 @@ main{
     border-radius: 30px;
     height: 2rem;
     text-align: center;
+    outline: none;
 }
 
 /* footer */
@@ -85,4 +86,45 @@ main{
 
 .navicon img{
     width: 50%;
+}
+
+/* search dropdown menu */
+
+.menu{
+    padding: 0;
+}
+
+.category {
+    font-weight: 900;
+}
+
+.drop-down {
+    margin-top: 10px;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 20px;
+    padding: 15px 10px 15px 10px;
+    width: 280px;
+}
+
+.header__search ul li a {
+    line-height: 25px;
+    color: #000000;
+}
+
+.header__search ul li  {
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.header__search ul li:hover .drop-down  {
+    display: block;
+}
+
+
+.header__search ul li ul {
+    display: none;
+    position: absolute;
+    line-height: 25px;
 }

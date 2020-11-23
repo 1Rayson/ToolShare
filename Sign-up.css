@@ -13,10 +13,8 @@ body {
     align-items: center;
     height: 4.5em;
     background-color: #15457B;
-    border-bottom: 1px solid #ebebeb;
     margin-top: 3.5rem;
 }
-
 
 .sign-up__form {
     display: grid;
