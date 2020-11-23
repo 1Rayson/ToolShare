@@ -73,7 +73,7 @@ main{
     position:fixed;
     bottom: 0;
     width: 100%;
-    height:auto;
+    height:4em;
     align-items: center;
 }
 
@@ -84,5 +84,5 @@ main{
 }
 
 .navicon img{
-    width: 60%;
+    width: 50%;
 }
