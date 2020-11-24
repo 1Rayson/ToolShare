@@ -10,8 +10,13 @@ body {
 
 /*  base style  */
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header__logo {
     display: flex;
+    top: 0;
     width: 100%;
     justify-content: center;
     align-content: center;
@@ -21,6 +26,7 @@ body {
 
 .header__menu {
     display: flex;
+    top: 3.5em;
     width: 100%;
     justify-content: space-around;
     background-color: #15457B;
@@ -30,12 +36,26 @@ body {
     position: fixed;
 }
 
+.top{
+    margin-top: 100px;
+}
+
 .intro{
     display: grid;
-    margin-top: 4rem;
 
 }
 
+.community{
+    margin-top: 200px;    
+}
+
+.join{
+    margin-top: ;
+}
+
+.download{
+    
+}
 
 /*  fonts  */
 
@@ -76,7 +96,7 @@ a {
     grid-template-columns: 1fr;
 }
 
-.image{
+.download__image{
     width: 50%;
 }
 
