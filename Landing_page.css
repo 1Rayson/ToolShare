@@ -10,7 +10,11 @@ body {
 
 /*  base style  */
 
-html{
+body {
+    background-image: url(media/WorkShop.jpeg);
+}
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -20,7 +24,7 @@ html{
     width: 100%;
     justify-content: center;
     align-content: center;
-    background-color: rgba(20, 16, 15, 0.9);
+    background-color: rgba(20, 16, 15, 1);
     position: fixed;
 }
 
@@ -36,21 +40,23 @@ html{
     position: fixed;
 }
 
-.top{
+.top {
+    width: 80%;
+    margin: auto;
     margin-top: 100px;
 }
 
-.intro{
+.intro {
     display: grid;
 
 }
 
-.community{
+.community {
     margin-top: 200px;    
 }
 
-.join{
-    margin-top: ;
+.join {
+   
 }
 
 .download{
@@ -59,13 +65,50 @@ html{
 
 /*  fonts  */
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* mobile styles */
 
-
-.intro{
+.intro {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
 
+.intro__title {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+    color: #1AC6E0;
+    line-height: 110%;
+}
+
+.intro__paragraph {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.intro__button-link {
+    margin-top: 1.5rem;
+    justify-self: center;
+}
+
+.intro__button {
+    background-color: #15457B;
+    color: #1AC6E0;
+    border: solid 0px;
+    border-radius: 30px ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    justify-self: center;
 }
 
 .intro__img {
@@ -77,27 +120,52 @@ a {
     color: #ffffff;
 }
 
-.app-screenshot{
-    width: 70%;
+.app-screenshot {
+    width: 100%;
 }
 
-.community{
+.community {
     display:grid;
     grid-template-columns: 1fr;
+    margin-bottom: 2rem;
 }
 
-.join{
+.join {
     display:grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-bottom: 4rem;
 }
 
-.download{
+.download {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-bottom: 4rem;
 }
 
-.download__image{
-    width: 50%;
+.download__image {
+    width: 100%;                
+}
+
+.download__image--size {
+    width: 100%;
+}
+
+.download__image--flex {
+    display: flex;
+    justify-content: center;
+}
+
+.download__paragraph {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.download__paragraph--font-size {
+    font-size: 2rem;
+    
 }
 
 /*  desktop styles  */
