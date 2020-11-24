@@ -12,10 +12,11 @@ body {
 
 .header__logo {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-content: center;
     background-color: rgba(20, 16, 15, 0.9);
-    padding: 10px 0px 10px 0px;
+    position: fixed;
 }
 
 .header__menu {
@@ -30,7 +31,9 @@ body {
 }
 
 .intro{
+    display: grid;
     margin-top: 4rem;
+
 }
 
 
@@ -38,6 +41,12 @@ body {
 
 
 /* mobile styles */
+
+
+.intro{
+    grid-template-columns: 1fr;
+
+}
 
 .intro__img {
     display: none;
@@ -48,4 +57,46 @@ a {
     color: #ffffff;
 }
 
+.app-screenshot{
+    width: 70%;
+}
+
+.community{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.join{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.download{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.image{
+    width: 50%;
+}
+
 /*  desktop styles  */
+@media screen and (min-width: 1200px){
+
+    .intro{
+    grid-template-columns: 1fr 1fr;
+
+    }
+    .intro__img{
+        display: block;
+    }
+    .community{
+        grid-template-columns: 1fr 1fr;
+    }
+    .join{
+        grid-template-columns: 1fr 1fr;
+    }
+    .download{
+        grid-template-columns: 1fr 1fr;
+    }
+}
