@@ -39,6 +39,10 @@ body {
 
 /* mobile styles */
 
+.intro__img {
+    display: none;
+}
+
 a {
     font-size: 1.2rem;
     color: #ffffff;
