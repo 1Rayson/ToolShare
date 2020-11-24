@@ -10,12 +10,6 @@ body {
 
 /*  base style  */
 
-
-/*  fonts  */
-
-
-/* mobile styles */
-
 .header__logo {
     display: flex;
     justify-content: center;
@@ -24,16 +18,23 @@ body {
     padding: 10px 0px 10px 0px;
 }
 
-nav ul {
+.header__menu {
     display: flex;
     justify-content: space-around;
     background-color: #15457B;
     list-style: none;
     padding: 17px 0px 17px 0px;
     margin: 0;
+    position: fixed;
 }
 
-nav ul li {
+
+/*  fonts  */
+
+
+/* mobile styles */
+
+a {
     font-size: 1.2rem;
     color: #ffffff;
 }
