@@ -1,16 +1,41 @@
-/*  Variabel  /
+/* Variabel */
 
 
-/  reset  /
+/*  reset  */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*  base style  */
 
 
-/  base style  /
-
-
-/  fonts  /
+/*  fonts  */
 
 
 /* mobile styles */
 
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(20, 16, 15, 0.9);
+    padding: 10px 0px 10px 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #15457B;
+    list-style: none;
+    padding: 17px 0px 17px 0px;
+    margin: 0;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
 
 /*  desktop styles  */
