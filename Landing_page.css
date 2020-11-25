@@ -61,14 +61,6 @@ nav a {
     margin-top: 200px;    
 }
 
-.join {
-   
-}
-
-.download{
-    
-}
-
 /*  fonts  */
 
 body {
@@ -228,16 +220,22 @@ body {
 
     .download{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "";
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "download-imgs downloadp"
+        "download-img downloadp";
     }
 
     .download__paragraph{
         grid-area: downloadp;
     }
 
-    .download__image--flex{
-        grid-area:download-imgf;
+    .download__image{
+        grid-area:download-img;
+
+    }
+
+    .download__image--size{
+        grid-area:download-imgs;
 
     }
 }
