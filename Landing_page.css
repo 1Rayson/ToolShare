@@ -58,7 +58,7 @@ nav a {
 }
 
 .community {
-    margin-top: 200px;    
+    margin-top: 80px;    
 }
 
 /*  fonts  */
@@ -114,7 +114,11 @@ body {
 }
 
 
-.app-screenshot {
+.community__app-screenshot {
+    width: 100%;
+}
+
+.join__app-screenshot {
     width: 100%;
 }
 
@@ -165,9 +169,15 @@ body {
 /*  desktop styles  */
 @media screen and (min-width: 1200px){
 
+    .header__menu {
+        
+    }
+
     .intro{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    margin-top: 10rem;
     grid-template-areas: "intro-title intro-img"
                         "intro-paragraph intro-img"
                         "introbutton intro-img" ;
@@ -179,15 +189,19 @@ body {
 
     .intro__paragraph{
         grid-area:intro-paragraph;
+        margin-bottom: 0;
     }
 
     .intro__button-link{
         grid-area: introbutton;
+        margin-top: 0;
     }
 
     .intro__img{
         display: grid;
         grid-area: intro-img;
+        height: 80%;
+        justify-self: end;
     }
 
     .community{
@@ -200,10 +214,13 @@ body {
 
     .community__app-screenshot{
         grid-area: app-screenshot;
+        justify-self: end;
+        width: 75%;
     }
 
     .paragraph{
         grid-area: paragraph;
+        font-size: 2rem;
     }
 
     .join{
@@ -216,12 +233,15 @@ body {
 
     .join__app-screenshot{
         grid-area: app-screenshot;
+        width: 75%;
     }
 
     .download{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: "download-imgs downloadp"
+        margin-top: 15rem;
+        grid-template-areas: 
+        "download-imgs downloadp"
         "download-img downloadp";
     }
 
@@ -231,11 +251,17 @@ body {
 
     .download__image{
         grid-area:download-img;
-
     }
 
     .download__image--size{
         grid-area:download-imgs;
+    }
 
+    .download__paragraph--font-size {
+        font-size: 4rem;
+    }
+
+    .download__paragraph {
+        font-size: 2rem;
     }
 }
