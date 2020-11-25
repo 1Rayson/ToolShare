@@ -174,11 +174,21 @@ body {
     .intro{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-area:intro;
+    grid-template-areas: "intro-title intro-img"
+                        "intro-paragraph intro-img"
+                        "introbutton intro-img" ;
     }
     
     .intro__title{
         grid-area: intro-title;
+    }
+
+    .intro__paragraph{
+        grid-area:intro-paragraph;
+    }
+
+    .intro__button-link{
+        grid-area: introbutton;
     }
 
     .intro__img{
@@ -188,13 +198,35 @@ body {
 
     .community{
         grid-template-columns: 1fr 1fr;
+        grid-template-areas: ". app-screenshot"
+        "paragraph app-screenshot"
+        ". app-screenshot";
+        
+    }
+
+    .app-screenshot{
+        grid-area: app-screenshot;
+    }
+
+    .paragraph{
+        grid-area: paragraph;
     }
 
     .join{
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "app-screenshot ."
+        "appscreenshot paragraph"
+        "appscreenshot .";
     }
-    
+
+
     .download{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .download__image--flex{
+        grid-area:download-imgf;
+
     }
 }
