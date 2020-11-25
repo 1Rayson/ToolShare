@@ -204,7 +204,7 @@ body {
         
     }
 
-    .app-screenshot{
+    .community__app-screenshot{
         grid-area: app-screenshot;
     }
 
@@ -216,13 +216,22 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "app-screenshot ."
-        "appscreenshot paragraph"
-        "appscreenshot .";
+        "app-screenshot paragraph"
+        "app-screenshot .";
     }
 
+    .join__app-screenshot{
+        grid-area: app-screenshot;
+    }
 
     .download{
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "";
+    }
+
+    .download__paragraph{
+        grid-area: downloadp;
     }
 
     .download__image--flex{
