@@ -19,8 +19,9 @@ html {
 }
 
 nav a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ffffff;
+    text-decoration: none; 
 }
 
 
@@ -90,6 +91,7 @@ body {
     font-size: 1.2rem;
     color: #ffffff;
     text-align: center;
+    text-shadow: 2px 2px #000000;
 }
 
 .intro__button-link {
@@ -146,10 +148,6 @@ body {
     width: 100%;                
 }
 
-.download__image--size {
-    width: 100%;
-}
-
 .download__image--flex {
     display: flex;
     justify-content: center;
@@ -159,18 +157,21 @@ body {
     color: #ffffff;
     text-align: center;
     font-size: 1.2rem;
+    text-shadow: 2px 2px #000000;
 }
 
 .download__paragraph--font-size {
     font-size: 2rem;
+    text-shadow: 2px 2px #000000;
     
 }
 
 /*  desktop styles  */
 @media screen and (min-width: 1200px){
 
-    .header__menu {
-        
+    nav a {
+        font-size: 1.3rem;
+        color: #ffffff;
     }
 
     .intro{
@@ -178,9 +179,10 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 5rem;
     margin-top: 10rem;
-    grid-template-areas: "intro-title intro-img"
-                        "intro-paragraph intro-img"
-                        "introbutton intro-img" ;
+    grid-template-areas: 
+    "intro-title intro-img"
+    "intro-paragraph intro-img"
+    "introbutton intro-img" ;
     }
     
     .intro__title{
@@ -206,7 +208,8 @@ body {
 
     .community{
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: ". app-screenshot"
+        grid-template-areas: 
+        ". app-screenshot"
         "paragraph app-screenshot"
         ". app-screenshot";
         
@@ -226,7 +229,8 @@ body {
     .join{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "app-screenshot ."
+        grid-template-areas: 
+        "app-screenshot ."
         "app-screenshot paragraph"
         "app-screenshot .";
     }
@@ -237,7 +241,7 @@ body {
     }
 
     .download{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.5fr;
         margin-top: 15rem;
         grid-template-areas: 
         "download-imgs downloadp";
@@ -245,6 +249,8 @@ body {
 
     .download__paragraph{
         grid-area: downloadp;
+        align-self: center;
+        font-size: 2.5rem;
     }
 
     .download__image--flex{
@@ -262,10 +268,12 @@ body {
     }
 
     .download__paragraph--font-size {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 
-    .download__paragraph {
-        font-size: 2rem;
+
+    .download__image {
+        width: 60%;
+        padding: 1.8rem;                
     }
 }
