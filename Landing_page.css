@@ -238,23 +238,27 @@ body {
 
     .download{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
         margin-top: 15rem;
         grid-template-areas: 
-        "download-imgs downloadp"
-        "download-img downloadp";
+        "download-imgs downloadp";
     }
 
     .download__paragraph{
         grid-area: downloadp;
     }
 
+    .download__image--flex{
+        flex-direction: column;
+    }
+
     .download__image{
         grid-area:download-img;
+        width: 75%;
     }
 
     .download__image--size{
         grid-area:download-imgs;
+        width: 75%;
     }
 
     .download__paragraph--font-size {
