@@ -18,6 +18,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    font-size: 1.2rem;
+    color: #ffffff; 
+}
 .header__logo {
     display: flex;
     top: 0;
@@ -115,10 +119,6 @@ body {
     display: none;
 }
 
-a {
-    font-size: 1.2rem;
-    color: #ffffff;
-}
 
 .app-screenshot {
     width: 100%;
@@ -173,17 +173,27 @@ a {
 
     .intro{
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area:intro;
+    }
+    
+    .intro__title{
+        grid-area: intro-title;
+    }
 
-    }
     .intro__img{
-        display: block;
+        display: grid;
+        grid-area: intro-img;
     }
+
     .community{
         grid-template-columns: 1fr 1fr;
     }
+
     .join{
         grid-template-columns: 1fr 1fr;
     }
+    
     .download{
         grid-template-columns: 1fr 1fr;
     }
